@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subtitle = ({subtitle}) => {
   return (
-    <div>Subtitle</div>
+    <h3 className="section_subtitle">{subtitle}</h3>
   )
 }
 
