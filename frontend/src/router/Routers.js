@@ -1,10 +1,10 @@
 import React from 'react'
 import {Routes,Route, Navigate} from 'react-router-dom'
 import Home from '../pages/Home'
-import Tours from '../pages/Home'
-import TourDetails from '../pages/Home'
-import Login from '../pages/Home'
-import Register from '../pages/Home'
+import Tours from '../pages/Tours'
+import TourDetails from '../pages/TourDetails'
+import Login from '../pages/Login'
+import Register from '../pages/Register'
 import SearchResultList from '../pages/Home'
 
 const Routers = () => {
