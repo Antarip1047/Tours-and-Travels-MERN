@@ -9,12 +9,12 @@ export const verifyToken = (req,res,next)=>{
     }
 
     //if token does exist then verify the token
-    jwt.verify(token, process.env.JWT_SECRET_KEY, (err, user)=>{
+    jwt.verify(token, process.env.JWT_SECRET_KEY, (err, decoded)=>{
         if(err){
             return res.status(401).json({success:false, message:"token is invalid"});
         }
 
-        req.user = user;
+        req.user = decoded;
         next(); //don't forget to call next
     });
 
@@ -30,6 +30,7 @@ export const verifyUser = (req,res,next)=>{
         }
     });
 };
+
 
 export const verifyAdmin = (req,res,next)=>{
     verifyToken(req,res,next,() => {

@@ -5,7 +5,6 @@ import Tours from '../pages/Tours'
 import TourDetails from '../pages/TourDetails'
 import Login from '../pages/Login'
 import Register from '../pages/Register'
-//import SearchResultList from '../pages/Home'
 import SearchResultList from '../pages/SearchResultList'
 import ThankYou from '../pages/ThankYou'
 
