@@ -31,6 +31,19 @@ export const verifyUser = (req,res,next)=>{
     });
 };
 
+// export const verifyUser = (req, res, next) => {
+//     verifyToken(req, res, () => {
+//       if (req.user) {
+//         console.log("User is authenticated");
+//         next();
+//       } else {
+//         return res
+//           .status(401)
+//           .json({ success: false, message: "You are not authenticated" });
+//       }
+//     });
+//   };
+
 
 export const verifyAdmin = (req,res,next)=>{
     verifyToken(req,res,next,() => {
