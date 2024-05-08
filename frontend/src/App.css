@@ -104,6 +104,12 @@ ul {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .section_subtitle {
+    font-size: 1.3rem;
+  }
+}
+
 
 /* .App {
   text-align: center;
