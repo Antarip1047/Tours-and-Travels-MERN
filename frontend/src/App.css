@@ -86,6 +86,25 @@ ul {
   color: var(--heading-color);
 }
 
+
+@media only screen and (max-width: 991px){
+  .primary_btn a,
+  .secondary_btn a {
+    font-style: 0.9rem;
+  }
+
+  .primary_btn,
+  .secondary_btn,
+  .btn-dark{
+    padding: 0.2rem 1.1rem !important;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+}
+
+
 /* .App {
   text-align: center;
 }
