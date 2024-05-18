@@ -110,7 +110,7 @@ const Footer = () => {
             </ListGroup>
           </Col>
           <Col lg='12' className='text-center pt-5'>
-              <p className="copyright">Copyright {year}, design and develeoped by team. All rights reserved</p>
+              <p className="copyright">Copyright {year}, design and developed by team. All rights reserved</p>
           </Col>
         </Row>
       </Container>
