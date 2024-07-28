@@ -15,7 +15,7 @@ This project is a Tours and Travel Management System website built using the MER
 - npm (Node Package Manager)
 - MongoDB
 ### Clone the Repository
-git clone https://github.com/Antarip1047/Tours-and-Travel-MERN.git
+git clone https://github.com/Antarip1047/Tours-and-Travels-MERN     
 > cd Tours-and-Travel-MERN
 ### Install Dependencies
 #### Backend
